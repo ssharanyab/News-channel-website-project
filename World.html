@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News Channel Website</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="grid-container">
+        <div class="header">
+          <h1>News</h1>
+          <div id="topnav">
+            <a class="active" href="home.html">Home</a>
+            <a href="Latest news.html">Latest News</a>
+            <a href="National.html">National</a>
+            <a href="World.html">World</a>
+            <a href="Economics.html">Economics</a>
+            <a href="Sports.html">Sports</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="tech.html">Tech</a>
+                    <a href="Entertainment.html">Entertainment</a>
+                    <a href="Subscriptions.html">Subscriptions</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div> 
+          </div>
+        </div>
+        <div class="left" ></div>
+        <div class="middle"style="background-image: url(world.jpg);">
+          <div style="height: 75px; text-align: center;"><h1 style="color: white;">World</h1></div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h3>1000 Boko Haram fighters killed in Chad</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 12:26 ISTS</p>
+                <p>The Chad army said on Thursday it has killed as many as 1,000 Boko Haram fighters and lost 52 of its own soldiers in a 10-day old operation that followed the jihadist group's deadliest-ever attack on the national forces. Chad's army launched the operation on March 31 after Boko Haram killed nearly 100 Chadian soldiers in an ambush a few days earlier. </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>South Korea's first feminist party seeks parliament seats</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 11:12 IST</p>
+                <p>South Korea is regularly ranked lowest in the developed world for gender equality, but for the first time, a feminist party is seeking parliamentary seats at Wednesday's election, accusing the political establishment of having failed women.
+                  The party was founded last month on International Women's Day on the back of a surge of anger over the country's spycam porn epidemic and other crimes, and against a backdrop of an enduring pay gap and employment and childcare issues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h3>France's Sanofi will donate 100 million doses of HCQ to 50 countries</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 15:53 IST</p>
+                <p>French pharmaceutical giant Sanofi said Friday it had decided to donate 100 million doses of hydroxychloroquine, the decades-old anti-malaria drug touted by some as a potential weapon against the novel coronavirus, across 50 countries.
+                  In a statement, the company said it increased its production capacity by 50% across its eight hydroxychloroquine manufacturing sites worldwide, adding it was on track to quadruple it by the summer.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>British PM Boris Johnson out of ICU, must rest up says his father</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 14:35 IST</p><br>
+                <p>British Prime Minister Boris Johnson has been shifted out of the intensive care unit (ICU) at a London hospital, where he remains under close monitoring by doctors in the early phase of his recovery after testing positive for the coronavirus.
+                  Downing Street said Johnson, 55, is in extremely good spirits at the St Thomas’ Hospital ward as his father, Stanley Johnson, called on his son to rest up.</p>
+              </div>                
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h3>China to continue screening Wuhan residents for coronavirus amid lifting of restrictions</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 14:31 IST</p>
+                <p>China's Wuhan city, where the global coronavirus pandemic began, is still testing residents regularly despite relaxing its tough two-month lockdown, with the country wary of a rebound in cases even as it sets its sights on normalising the economy.
+                  Concerns remain over an influx of infected patients from overseas as well as China's ability to detect asymptomatic patients, and the government in Wuhan has tried to reassure the public that it remains vigilant.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>Vietnam challenges China's monopoly on coronavirus diplomacy</h3>
+                <p>April 10, 2020 UPDATED: April 10, 2020 13:30 IST</p>
+                <p>Vietnam is challenging China's dominance of coronavirus diplomacy with the donation of medical supplies to Europe and Southeast Asia and even winning plaudits from U.S. President Donald Trump for a shipment of protective suits.
+                  China is looking to burnish its credentials as a responsible power by sharing expertise and donating masks and other protective equipment to countries seeing a surge in cases and to repair an image dented by the disease that originated there late last year.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="right"></div>
+        
+        <div class="footer">
+          <p>Website made by:-</p>
+          <p>S. Sharanya Bharghavi<br>Gaurav<br>Sunil</p>
+          <p>Section:-K19DE</p>
+        </div>
+      </div>
+          <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="google"><i class="fa fa-google"></i></a> 
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+          </div>
+          <script>
+            window.onscroll = function() {myFunction()};
+            
+            var topnav = document.getElementById("topnav");
+            var sticky = topnav.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                topnav.classList.add("sticky")
+              } else {
+                topnav.classList.remove("sticky");
+              }
+            }
+            </script>
+          
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

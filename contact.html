@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>News Channel Website</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="grid-container">
+        <div class="header">
+          <h1>News</h1>
+          <div id="topnav">
+            <a class="active" href="home.html">Home</a>
+            <a href="Latest news.html">Latest News</a>
+            <a href="National.html">National</a>
+            <a href="World.html">World</a>
+            <a href="Economics.html">Economics</a>
+            <a href="Sports.html">Sports</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="tech.html">Tech</a>
+                    <a href="Entertainment.html">Entertainment</a>
+                    <a href="subscription.html">Subscriptions</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div> 
+          </div>
+        </div>
+        <div class="left" style="width: 300px;"></div>
+        <div class="middle " style="width: 900px;height: 900px;">
+            <h4>Contact Us</h4>
+            <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">India</option>
+                    <option value="canada">Australia</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+              
+        </div> 
+        <div class="right" style="width: 300px;" ></div>
+        
+        <div class="footer">
+          <p>Website made by:-</p>
+          <p>S. Sharanya Bharghavi<br>Gaurav<br>Sunil</p>
+          <p>Section:-K19DE</p>
+        </div>
+      </div>
+          <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="google"><i class="fa fa-google"></i></a> 
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+          </div>
+          <script>
+            window.onscroll = function() {myFunction()};
+            
+            var topnav = document.getElementById("topnav");
+            var sticky = topnav.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                topnav.classList.add("sticky")
+              } else {
+                topnav.classList.remove("sticky");
+              }
+            }
+            </script>
+          
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
