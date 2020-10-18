@@ -3,7 +3,7 @@ This is made as part of project submission of CSE-326
 
 1>INTRODUCTION
 
-In hush and rush of this era, who really finds time to open and read newspapers. Also in TV, nowadays we find debates and discussions more than amount of news content they provide. Also the people in modern world want everything a click away. So here we intend to create a news channel website which provides constants updates of the happenings across the globe.
+In hush and rush of this era, who really finds time to open and read newspapers in English. Also in TV, nowadays we find debates and discussions more than amount of news content they provide. Also the people in modern world want everything a click away. So here we intend to create a news channel website which provides constants updates of the happenings across the globe.
 
 2> BACKGROUND & OBJECTIVE OF THE ASSIGNED PROJECT
 
